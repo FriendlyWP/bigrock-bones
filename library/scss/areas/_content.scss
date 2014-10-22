@@ -1,11 +1,11 @@
 body {
 	height:100%;
-	font-family: $sans-serif;
+	font-family: $serif;
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
   	-webkit-font-smoothing: antialiased;
-  	background-color:$black;
+  	background-color:$white;
 }
 
 .hide {
@@ -30,27 +30,29 @@ body {
 	}
 }
 
-#inner-content {
-	padding:1.677em 0;
+#content {
+	
+	background: $white url('../images/bg-content.png') bottom right no-repeat;
 }
 
-#content {
-	background-color:$white;
+.main-content {
+	margin:5em 0 11em;
 }
 
 .header {
-	background-color: $black;
-	color:$white;
+	border-top: 2em solid $yellow;
 	padding:0;
 }
 
 
 #logo {
-	margin: 0;
-	color: $white;
-	font-size:3em;
+	margin: -1.8em 0 0 0;
 	border: none;
 	line-height:0;
+	display:inline-block;
+	float:left;
+	width:20%;
+	max-width:228px;
 
 	img {
 		padding:0;
@@ -65,7 +67,7 @@ LINK STYLES
 a, a:visited {
   color: $link-color;
   text-decoration: none;
-  border-bottom:1px solid $link-color;
+  font-weight: 700;
 
   /* on hover */
   &:hover, &:focus {
@@ -74,17 +76,12 @@ a, a:visited {
 
   /* on click */
   &:active {
-
+  	color:$red-text;
   }
 
   /* mobile tap color */
   &:link {
-
     -webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
-  }
-
-  &.imglink {
-  	 border: none;
   }
 }
 
@@ -97,6 +94,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-weight: 500;
   margin:0 0 .675em 0;
   font-family: $title-family;
+
   
   a {
     text-decoration: none;
@@ -104,41 +102,100 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h1, .h1 {
-  font-size: 2.25em;
+  font-size: 2.5em;
   line-height: 1.333em;
+  text-transform: uppercase;
+  color:$orange;
 }
 
 h2, .h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 1.4em;
+  color:$yellow;
+  font-family: $serif;
 }
 
 h3, .h3 {
-  font-size: 1.2em;
+  font-size: 1.5em;
+   text-transform: uppercase;
+   color:$red;
 }
 
 h4, .h4 {
-  font-size: 1.1em;
+  font-size: 1.5em;
+  color:$orange;
+  font-family: $serif;
 }
 
 h5, .h5 {
-  font-size: 1em;
+  font-size: 1.2em;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  color:$yellow;
 }
 
 h6 {
-  font-size: 1em;
+  font-size: 1.2em;
+  color:$red;
+  font-family: $serif;
+}
+
+.article-header {
+	background-color:$red;
+	color:$white;
+
+
 }
 
 .single-title,
-.page-title,
 .entry-title {
 	margin: 0 0 .5em 0;
 }
 
-.page-title, .archive-title, .single-title {
+ .archive-title, .single-title {
 	font-size:2.5em;
+}
+
+.page-title {
+	height: 236px;
+	padding:1em 0 1em 300px;
+	margin:0;
+	line-height:3em;
+	font-size:3em;
+	display:inline-block;
+	vertical-align: middle;
+	position:relative;
+	color:$white;
+	background: url('../images/icon-contact.png') left no-repeat;
+
+	&::before { 
+		content:' ';
+		width: 0;
+		height: 0;
+		display: inline-block;
+		position:absolute;
+		bottom:-24px;
+		left:80px;
+		border-left: 30px solid transparent;
+		border-right: 30px solid transparent;
+		border-top: 25px solid $red;
+	}
+
+	.page-parent-about-us & {
+		background-image: url('../images/icon-about-us.png');
+	}
+
+	.page-parent-case-studies & {
+		background-image: url('../images/icon-case-studies.png');
+	}
+
+	.page-parent-process & {
+		background-image: url('../images/icon-process.png');
+	}
+
+	.page-parent-services & {
+		background-image: url('../images/icon-services.png');
+	}
+
 }
 
 .entry-title {
@@ -146,6 +203,13 @@ h6 {
 
 	a {
 		border-bottom:none;
+	}
+
+	.post-type-archive-case_study & {
+		width: 40%;
+		margin-right: 3%;
+		float:left;
+		display: inline-block;
 	}
 }
 
@@ -167,21 +231,43 @@ POSTS & CONTENT STYLES
 *********************/
 
 .hentry {
-	background-color: $white;
 	margin-bottom: 1.5em;
 
+	ul {
+		list-style: square url(../images/icon-bullet.png);
+		margin:0 0 1.677em 5em;
+	}
 
-	footer {
-		
+	ol {
+		margin-bottom: 1.677em;
+	}
 
+	img {
+		border: 3px solid $gray;
+
+		&.noborder {
+			border: none;
+		}
+	}
+
+	footer {	
 		p {
 			margin: 0;
 		}
 	}
 
+	
+
 } /* end .hentry */
 
 
+hr {
+	border: none;
+	background-color: $gray;
+	height:4px;
+	clear:both;
+	margin:3em 0;
+}
 
 /* post meta */
 .byline {
@@ -192,6 +278,50 @@ POSTS & CONTENT STYLES
 	time {}
 }
 
+.process-tiles {
+
+	div {
+		
+		
+
+		h2 {
+			color: $dark-red;
+		}
+
+		&:last-of-type {
+			margin-right: 0 !important;
+		}
+	}
+	
+}
+
+.process-title {
+	display:block;
+	width:100%;
+	height:100%;
+	padding:3em 5em 2em;
+	background-color:$light-gray;
+	width:29.8%;
+	margin-right:2.9%;
+	float:left;
+	
+	text-align: center;
+
+	&.active {
+		background:$dark-red;
+	}
+
+	&:hover {
+		button {
+			background-color:$orange;
+		}
+	}
+}
+
+.process-info {
+	margin:0 auto;
+	text-align:center;
+}
 
 
 /* entry content */
@@ -271,15 +401,100 @@ POSTS & CONTENT STYLES
 	margin-bottom:.5em;
 }
 
+.email_link {
+	position: relative;
+	padding-left:1.5em;
+	
+	&::before {
+	    font-family: 'FontAwesome';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    content: "\f0e0";
+	    z-index: 100;
+	    color:$orange;
+	  }	
+}
+
+
+.study-content {
+	float: none;
+	margin: 0 auto;
+	width: 90%;
+	display: block;
+	padding:0 80px;
+}
+
 blockquote {
 	margin: 0 0 1.5em 0.75em;
-	padding: 0 0 0 0.75em;
-	border-left: 3px solid $blue;
-	font-style: italic;
-	color: $meta-color;
+	padding: 0 0 0 80px;
+	color: $red-text;
+	font-size: 1.5em;
+	font-family:$title-family;
+	position:relative;
+	display:inline-block;
+	width: 40%;
+	float:right;
 
-	&:before {}
+	&.testimonial {
+		float: none;
+		margin: 0 auto;
+		width: 90%;
+		display: block;
+		padding:0 80px;
+		text-align: center;
 
+		&::after {
+			content:' ';
+			background: url('../images/icon-quote-right.png') no-repeat;
+			position:absolute;
+			right:0;
+			top:-10px;
+			width:61px;
+			height:49px;
+		}
+
+		.person {
+			margin-right: 1em;
+			padding-right:1em;
+			border-right: 1px solid $yellow;
+			text-transform: uppercase;
+		}
+
+		hr {
+			background-color:$yellow;
+			margin: 2em;
+		}
+	}
+
+	:last-child {
+		margin-bottom:0;
+		padding-bottom:0;
+	}
+
+	&::before {
+		content:' ';
+		background: url('../images/icon-quote-left.png') no-repeat;
+		position:absolute;
+		left:0;
+		top:-10px;
+		width:61px;
+		height:49px;
+	}
+}
+
+.testimonial-pagination {
+	font-size: 3em;
+	
+	.next {
+		float:right;
+		padding-top:100px;
+	}
+
+	.previous {
+		float:left;
+		padding-top:100px;
+	}
 }
 
 img {

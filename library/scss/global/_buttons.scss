@@ -8,13 +8,12 @@ http://galp.in/blog/2011/08/02/the-ui-guide-part-1-buttons/
 %btn {
   display: inline-block;
   position: relative;
-  font-family: $sans-serif;
+  font-family: $serif;
   text-decoration: none;
   color: $white;
-  font-size: 0.9em;
+ font-size:1.1em;
   font-weight: normal;
-  padding: .2em .5em .3em;
-  border-radius: .2em;
+  padding: .4em .5em .3em;
   border: 0;
   cursor: pointer;
   line-height: 1.5em;
@@ -31,6 +30,13 @@ http://galp.in/blog/2011/08/02/the-ui-guide-part-1-buttons/
   &:active {
     top: 1px; // adds a tiny hop to the click
   } // end active
+
+   &::after {
+    content:' \f054';
+    font-family: 'FontAwesome';
+    font-size:.9em;
+    padding-top:.2em;
+  }
 
 } // end .button
 

@@ -2,23 +2,20 @@
 
 			<div id="content">
 
+				<header class="article-header">
+					<div class="wrap">
+						<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
+					</div>
+
+				</header> <?php // end article header ?>
+
 				<div id="inner-content" class="wrap cf">
 
-						<div id="main" class="main-content cf" role="main">
-
-							<?php if ( function_exists('yoast_breadcrumb') ) {
-								yoast_breadcrumb('<p id="breadcrumbs">','</p>');
-							} ?>
+						<div id="main" class="main-content full cf" role="main">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-
-								<header class="article-header">
-
-									<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
-
-								</header> <?php // end article header ?>
 
 								<section class="entry-content cf" itemprop="articleBody">
 									<?php
@@ -53,8 +50,6 @@
 							<?php endif; ?>
 
 						</div>
-
-						<?php get_sidebar(); ?>
 
 				</div>
 

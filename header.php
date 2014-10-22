@@ -30,7 +30,8 @@
 		<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-120x120.png">
 		<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-76x76.png">
 		<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-152x152.png">
-		<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/favicon-196x196.png" sizes="196x196">
+		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/favicon-192x192.png" sizes="192x192">
 		<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/favicon-160x160.png" sizes="160x160">
 		<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/favicon-96x96.png" sizes="96x96">
 		<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/library/images/favicons/favicon-16x16.png" sizes="16x16">
@@ -76,59 +77,19 @@
 						</nav>
 					<?php } ?>   
 				</div>
-					<div class="topbar">
-						<div class="wrap">
-							<a href="#my-menu" class="menu-toggler"><i class="fa fa-bars"></i></a>
-
-							<a class="login"><span>Member </span>Login</a>
-						
-							<form role="search" class="searchform" method="get" id="searchform-head" action="<?php echo home_url( '/' ); ?>">
-							    <div class="head-search">
-							    	<label class="screen-reader-text" for="s">Search this site</label>
-							        <input type="text" value="" placeholder="Search" name="s" id="s" />
-							        <button type="submit" id="searchsubmit-head" value="Search"  /><i class="fa fa-search"></i></button>
-							    </div>
-							</form>
-							
-							<?php if ( has_nav_menu( 'social-nav' ) ) { ?>
-									<?php wp_nav_menu(array(
-			    					'container' => false,                           // remove nav container
-			    					'container_class' => 'menu',                 // class of container (should you choose to use it)
-			    					'menu' => __( 'The Social Menu', 'bonestheme' ),  // nav name
-			    					'menu_class' => 'nav social-nav',               // adding custom nav class
-			    					'theme_location' => 'social-nav',                 // where it's located in the theme
-			    					'before' => '',                                 // before the menu
-				        			'after' => '',                                  // after the menu
-				        			'link_before' => '',                            // before each link
-				        			'link_after' => '',                             // after each link
-				        			'depth' => 0,                                   // limit the depth of the nav
-									)); ?>
-							<?php } ?>
-						</div>
-					</div>
+					
 
 				<div id="inner-header" class="wrap cf">
-					
 
-					<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow" title="<?php bloginfo('name'); ?>"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logo-friendly-300w-white.png" alt="<?php bloginfo('name'); ?>" /></a>
+					<a href="<?php echo home_url(); ?>" id="logo" rel="nofollow" title="<?php bloginfo('name'); ?>"><img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/library/images/logo-big-rock-educational-services.png" alt="<?php bloginfo('name'); ?>" /></a>
 
-					<?php $desc = get_bloginfo('description'); 
-					if ($desc) { ?>
-						<span class="site-description"><?php echo $desc; ?></span>
-					<?php } ?>					
-
-				</div>
-
-				<div class="topmenu cf">
-					
-					<div class="wrap">
 					<?php if ( has_nav_menu( 'main-nav' ) ) { ?>
-						<nav role="navigation">
+						<nav role="navigation" class="main-nav">
 							<?php wp_nav_menu(array(
 	    					'container' => false,                           // remove nav container
 	    					'container_class' => 'menu cf',                 // class of container (should you choose to use it)
 	    					'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-	    					'menu_class' => 'nav top-nav cf',               // adding custom nav class
+	    					'menu_class' => 'nav cf',               // adding custom nav class
 	    					'theme_location' => 'main-nav',                 // where it's located in the theme
 	    					'before' => '',                                 // before the menu
 		        			'after' => '',                                  // after the menu
@@ -138,7 +99,14 @@
 		    					'fallback_cb' => ''                             // fallback function (if there is one)
 								)); ?>
 						</nav>
-					<?php } ?>
+					<?php } ?>					
+
+				</div>
+
+				<div class="topmenu cf">
+					
+					<div class="wrap">
+					
 				</div>
 
 				<script type="text/javascript">

@@ -119,6 +119,8 @@ function bones_scripts_and_styles() {
 			wp_dequeue_style('wp-columna');	
 		}
 		
+		// Google Fonts
+        wp_enqueue_style( 'googleFonts', 'http://fonts.googleapis.com/css?family=Hammersmith+One|Roboto+Slab:400,700');
 
 		// enqueue styles and scripts
 		wp_enqueue_script( 'bones-modernizr' );

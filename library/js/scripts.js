@@ -8,4 +8,10 @@ jQuery(document).ready(function($) {
   $('a:has(img)').addClass('imglink');
 
 
+	$('.process-title').on('click',function(){
+   $('.process-title').removeClass('active');
+    $(this).addClass('active');
+});
+	
+
 }); /* end of as page load scripts */

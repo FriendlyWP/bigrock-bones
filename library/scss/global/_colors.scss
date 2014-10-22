@@ -7,22 +7,26 @@ $alert-red:         #fbe3e4;
 $alert-green:       #e6efc2;
 $alert-blue:        #d5edf8;
 
-$black:             #000;
+$black:             #220d12;
 $white:             #fff;
 
-$light-gray:        #ccc;
-$gray:              #aaa;
+$light-gray:        #f5f4f4;
+$gray:              #d8d7d8 ;
 
-$red:				#ff0000;
+$dark-red:			#2b111c;
+$red:				#691c2a;
+$red-text:				#5c1623;
 
-$yellow:            #ffc703;
+$orange:			#f68d3d;
+
+$yellow:            #efbe6d;
 
 $green:             #637b4b;
 
 $blue:              #2980b9;
 
-$link-color:        $blue;
-$link-hover:        darken($link-color, 9%);
+$link-color:        $yellow;
+$link-hover:        $orange;
 
 $border-color:      $black;
 $disabled-color:    $light-gray;

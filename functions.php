@@ -154,10 +154,18 @@ function tdd_oembed_filter($html, $url, $attr, $post_ID) {
     return $return;
 }
 
-/**************** SHORTCODES ***************/
+/*************** PAGE SLUGS IN BODY CLASS *************/
+function wpprogrammer_post_name_in_body_class( $classes ){
+if( is_singular() ) {
+     global $post;
+     $parent = get_page($post->post_parent);
+     array_push( $classes, "{$post->post_type}-{$post->post_name}" );
+     array_push( $classes, "{$post->post_type}-parent-{$parent->post_name}" );
+     }
+return $classes;
+}
+add_filter( 'body_class', 'wpprogrammer_post_name_in_body_class' );
 
-// ENABLE SHORTCODES IN ALL TEXT WIDGETS
-add_filter('widget_text', 'do_shortcode');
 
 /************* ACF ****************/
 if( function_exists('acf_add_options_sub_page') )
@@ -171,3 +179,33 @@ if( function_exists('acf_add_options_sub_page') )
 
 /**** MENU SOCIAL ICONS ****/
 add_filter( 'storm_social_icons_use_latest', '__return_true' );
+add_filter( 'storm_social_icons_networks', 'storm_social_icons_networks');
+function storm_social_icons_networks( $networks ) {
+
+    $extra_icons = array (
+        'mailto:' => array(                  // Enable this icon for any URL containing this text
+            'name' => 'Email',               // Default menu item label
+            'class' => 'email',              // Custom class
+            'icon' => 'icon-envelope',          // FontAwesome class
+            'icon-sign' => 'icon-envelope-sign' // May not be available. Check FontAwesome.
+        ),
+    );
+
+    $extra_icons = array_merge( $networks, $extra_icons );
+    return $extra_icons;
+
+}
+
+/**
+* Adjusting the HTML of the Gravity Forms submit button to match design
+*
+*
+* @param $button string required The text string of the button we're editing
+* @param $form array required The whole form object
+*
+* @return string The new HTML for the button
+*/
+add_filter( 'gform_submit_button', 'theme_t_wp_submit_button', 10, 2 );
+function theme_t_wp_submit_button( $button, $form ) {
+  return '<button id="" class="gform_button button"><span>'. $form["button"]["text"] .'</span></button>';
+}
