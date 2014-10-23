@@ -169,7 +169,7 @@ input[type="file"] {
         font-family: 'FontAwesome';
         color:$red;
         position: absolute;
-        top: 8px;
+        top: 18px;
         left: 15px;
         content: "\f007";
         z-index: 100;
@@ -178,81 +178,87 @@ input[type="file"] {
   }
 }
 
-.gform_wrapper {
+#content {
 
-  .first-last, .phone, .email, .message {
-    input {
-      padding-left:3.5em;  
-      position:relative;
-      z-index: 1;
-    }
-    
-  }
+  .gform_wrapper {
 
-  ul .float-left-half.gfield {
-    display: inline-block;
-    clear:none;
-    float:left;
-    width:30.5%;
-    margin-right: 2.3%;
-
-    &.email {
-      margin-right:0;
-      width: 29.5%;
-    }
-
-    input.medium {
+    .right_label div.ginput_complex, .left_label div.ginput_complex {
       width:100%;
     }
 
-    .ginput_container {
-      position:relative;
-
-      &::before {
-        font-family: 'FontAwesome';
-        color:$red;
-        position: absolute;
-        top: 8px;
-        left: 15px;
-        content: "\f0e0";
-        z-index: 100;
+    .first-last, .phone, .email, .message {
+      input {
+        padding-left:3.5em;  
+        position:relative;
+        z-index: 1;
       }
+      
     }
 
-    &.phone {
+    ul .float-left-half.gfield {
+      display: inline-block;
+      clear:none;
+      float:left;
+      width:47.5%;
+      margin-right: 3.5%;
+
+      &.email {
+        margin-right:0;
+        width: 46.5%;
+      }
+
+      input.medium {
+        width:100%;
+      }
+
       .ginput_container {
         position:relative;
 
         &::before {
-          content:"\f10b";
-         
+          font-family: 'FontAwesome';
+          color:$red;
+          position: absolute;
+          top: 18px;
+          left: 15px;
+          content: "\f0e0";
+          z-index: 100;
         }
       }
-      
-    }
-  }
 
-  .message .ginput_container {
-    position:relative;
+      &.phone {
+        .ginput_container {
+          position:relative;
 
-    &::before {
-        font-family: 'FontAwesome';
-        color:$red;
-        position: absolute;
-        top: 8px;
-        left: 15px;
-        content: "\f040";
-        z-index: 100;
+          &::before {
+            content:"\f10b";
+           
+          }
+        }
+        
       }
+    }
 
-    textarea {
-      width: 62.25%;
-      padding:1em 0 0 3.5em;
-      z-index: 1;
+    .message .ginput_container {
+      position:relative;
+
+      &::before {
+          font-family: 'FontAwesome';
+          color:$red;
+          position: absolute;
+          top: 18px;
+          left: 15px;
+          content: "\f040";
+          z-index: 100;
+        }
+
+      textarea {
+        width: 97.25%;
+        padding:1em 0 0 3.5em;
+        z-index: 1;
+      }
     }
   }
 }
-
 
 .gform_wrapper .gform_footer.left_label {
   padding-left: 28%;

@@ -24,7 +24,7 @@ get_header(); ?>
 							    while ( have_rows('processes') ) : the_row();
 							    $slug = preg_replace('/\s+/', '', get_sub_field('process_title')); ?>
 
-	        						<a class="process-title link" href="#<?php echo $slug; ?>">
+	        						<a class="process-title show" target="<?php echo $slug; ?>">
 									    <img src="<?php the_sub_field('process_icon'); ?>" alt="<?php the_sub_field('process_title'); ?>" />
 									     <h2><?php the_sub_field('process_title'); ?></h2>
 									    <button class="button" href="">View Process</button>
@@ -44,7 +44,7 @@ get_header(); ?>
 																			 	
 									    while ( have_rows('processes') ) : the_row();
 									    $slug = preg_replace('/\s+/', '', get_sub_field('process_title')); ?>
-			        					<div class="process-info" id="<?php echo $slug; ?>">
+			        					<div class="process-info" id="div<?php echo $slug; ?>">
 										   
 										    <a href="<?php the_sub_field('process_file'); ?>" target="_blank"><img src="<?php the_sub_field('process_image'); ?>" class="noborder" alt="<?php the_sub_field('process_title'); ?>" /></a>
 									    </div>

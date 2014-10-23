@@ -209,3 +209,13 @@ add_filter( 'gform_submit_button', 'theme_t_wp_submit_button', 10, 2 );
 function theme_t_wp_submit_button( $button, $form ) {
   return '<button id="" class="gform_button button"><span>'. $form["button"]["text"] .'</span></button>';
 }
+
+// FILTER WORDPRESS SEO BY YOAST outputs in the WordPress control panel
+// remove WP-SEO columns from edit-list pages in admin
+add_filter( 'wpseo_use_page_analysis', '__return_false' );
+
+// put WP-SEO panel at bottom of edit screens (low priority)
+add_filter('wpseo_metabox_prio' , 'my_wpseo_metabox_prio' );
+function my_wpseo_metabox_prio() {
+  return 'low' ;                                
+}

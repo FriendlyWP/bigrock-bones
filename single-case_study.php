@@ -4,7 +4,7 @@
 
 				<header class="article-header">
 					<div class="wrap">
-						<h1 class="page-title" itemprop="headline">Case Studies</h1>
+						<h1 class="page-title" id="trigger1"itemprop="headline">Case Studies</h1>
 					</div>
 
 				</header> <?php // end article header ?>
@@ -15,14 +15,15 @@
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<div class="testimonial-pagination">
+							<div class="testimonial-pagination" id="paginate">
+								<div class="cf">
 								<span class="next"><?php next_post_link('%link', '<i title="Next Case Study" class="fa fa-angle-right"></i>'); ?></span>
 								<span class="previous"><?php previous_post_link('%link', '<i title="Previous Case Study" class="fa fa-angle-left"></i>'); ?></span> 
 							</div>
-
+							</div>
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf study-content' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-								<h1 class="entry-title"><?php the_title(); ?></h1>
+								<h1 class="entry-title" ><?php the_title(); ?></h1>
 
 								<section class="entry-content cf" itemprop="articleBody">
 									<?php
@@ -39,6 +40,8 @@
 								</section> <?php // end article section ?>
 
 							</article>
+
+
 
 							<?php endwhile; else : ?>
 

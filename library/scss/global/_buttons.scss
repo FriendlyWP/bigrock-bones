@@ -8,10 +8,10 @@ http://galp.in/blog/2011/08/02/the-ui-guide-part-1-buttons/
 %btn {
   display: inline-block;
   position: relative;
-  font-family: $serif;
+  font-family: $title-family;
   text-decoration: none;
-  color: $white;
- font-size:1.1em;
+  color: $text-red;
+  font-size:1.1em;
   font-weight: normal;
   padding: .4em .5em .3em;
   border: 0;
@@ -35,27 +35,42 @@ http://galp.in/blog/2011/08/02/the-ui-guide-part-1-buttons/
     content:' \f054';
     font-family: 'FontAwesome';
     font-size:.9em;
-    padding-top:.2em;
+    padding:.2em 0 0 1em;
   }
 
-} // end .button
+} // end %btn
 
-/*
-An example button.
-You can use this example if you want. Just replace all the variables
-and it will create a button dependant on those variables.
-*/
-.button {
+/* Default button (yellow bg, text-red) */
+.button, .button:visited {
   @extend %btn; // here we load the btn defaults
   background-color: $link-color;
 
   &:hover,
   &:focus {
     background-color: darken($link-color, 4%);
+    color:$white;
   } // end hover
 
   &:active {
     background-color: darken($link-color, 5%);
   } // end active
 
-} // end blue button
+} // end default button
+
+/* Default button (yellow bg, text-red) */
+.button.red {
+  @extend %btn; // here we load the btn defaults
+  background-color: $red;
+  color:$yellow;
+
+  &:hover,
+  &:focus {
+    background-color: darken($red, 4%);
+    color:lighten($yellow,15%);
+  } // end hover
+
+  &:active {
+    background-color: darken($red, 5%);
+  } // end active
+
+} // end default button

@@ -106,10 +106,10 @@ function bones_scripts_and_styles() {
 		// ie-only style sheet
 		wp_register_style( 'bones-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
 
-    // comment reply script for threaded comments
-    if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
-		  wp_enqueue_script( 'comment-reply' );
-    }
+	    // comment reply script for threaded comments
+	    if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
+			  wp_enqueue_script( 'comment-reply' );
+	    }
 
 		//adding scripts file in the footer
 		wp_register_script( 'bones-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
@@ -118,6 +118,18 @@ function bones_scripts_and_styles() {
 		if ( wp_style_is( 'wp-columna', $list = 'enqueued' )) {
 			wp_dequeue_style('wp-columna');	
 		}
+
+		// TweenMax
+		wp_register_script( 'tweenmax', 'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/TweenMax.min.js', array( 'jquery' ), '', false );
+		//wp_enqueue_script('tweenmax');
+
+		// ScrollMagic
+		wp_register_script( 'scrollmagic', get_stylesheet_directory_uri() . '/library/js/libs/ScrollMagic-master/js/jquery.scrollmagic.min.js', array( 'jquery' ), '', false );
+		//wp_enqueue_script('scrollmagic');
+
+		// Scrollorama
+		wp_register_script( 'scrollorama', get_stylesheet_directory_uri() . '/library/js/libs/scrollorama/js/jquery.scrollorama.js', array( 'jquery' ), '', false );
+		wp_enqueue_script('scrollorama');
 		
 		// Google Fonts
         wp_enqueue_style( 'googleFonts', 'http://fonts.googleapis.com/css?family=Hammersmith+One|Roboto+Slab:400,700');
@@ -261,11 +273,11 @@ function bones_page_navi() {
 /*********************
 RANDOM CLEANUP ITEMS
 *********************/
-
 // remove the p from around imgs (http://css-tricks.com/snippets/wordpress/remove-paragraph-tags-from-around-images/)
 function bones_filter_ptags_on_images($content){
 	return preg_replace('/<p>\s*(<a .*>)?\s*(<img .* \/>)\s*(<\/a>)?\s*<\/p>/iU', '\1\2\3', $content);
 }
+
 
 // This removes the annoying […] to a Read More link
 function bones_excerpt_more($more) {
@@ -273,7 +285,3 @@ function bones_excerpt_more($more) {
 	// edit here if you like
 	return '...  <a class="excerpt-read-more" href="'. get_permalink($post->ID) . '" title="'. __( 'Read ', 'bonestheme' ) . get_the_title($post->ID).'">'. __( 'Read more &raquo;', 'bonestheme' ) .'</a>';
 }
-
-
-
-?>
