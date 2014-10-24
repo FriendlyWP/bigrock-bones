@@ -51,7 +51,6 @@ textarea,
   vertical-align: middle;
   box-shadow: none;
   width: 100%;
-  max-width: 400px;
   background-color: $white;
   @include transition(background-color 0.24s ease-in-out);
 
@@ -114,9 +113,7 @@ textarea {
   height:auto;
   font-size: inherit;
 
-  option {
-
-  }
+  
 }
 
 
@@ -173,6 +170,7 @@ input[type="file"] {
         left: 15px;
         content: "\f007";
         z-index: 100;
+        line-height: 0;
     }
     
   }
@@ -181,6 +179,12 @@ input[type="file"] {
 #content {
 
   .gform_wrapper {
+
+    .gform_footer.left_label {
+      padding:1em 0 5em;
+      width:98%;
+      text-align: center;
+    }
 
     .right_label div.ginput_complex, .left_label div.ginput_complex {
       width:100%;
@@ -222,6 +226,7 @@ input[type="file"] {
           left: 15px;
           content: "\f0e0";
           z-index: 100;
+          line-height: 0;
         }
       }
 
@@ -231,7 +236,7 @@ input[type="file"] {
 
           &::before {
             content:"\f10b";
-           
+           line-height: 0;
           }
         }
         
@@ -249,6 +254,7 @@ input[type="file"] {
           left: 15px;
           content: "\f040";
           z-index: 100;
+          line-height: 0;
         }
 
       textarea {

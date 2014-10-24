@@ -9,8 +9,8 @@ Breakpoints
    @else if $point == desktop { // 1120px
      @media (min-width: 70em) { @content ; }
   }
-   @else if $point == laptop { // 1024px
-     @media (min-width: 64em) { @content ; }
+   @else if $point == laptop { // 980px
+     @media (min-width: 61.25em) { @content ; }
   }
     @else if $point == tablet { // 800px
      @media (min-width: 50em) { @content ; }

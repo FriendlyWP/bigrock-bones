@@ -5,7 +5,7 @@ body {
 	line-height: 1.5;
 	color: $text-color;
   	-webkit-font-smoothing: antialiased;
-  	background-color:$white;
+  	background-color:$black;
 }
 
 .hide {
@@ -13,30 +13,23 @@ body {
 }
 
 .wrap {
-	width: 92%;
+	width: 980px;
 	margin: 0 auto;
 
-
-	@include breakpoint(tablet) {
-		max-width: 760px;
-	}
-
-	@include breakpoint(laptop) {
-		max-width: 960px;
-	}
-
-	@include breakpoint(tv) {
-		max-width: 960px;
-	}
+	/* @include breakpoint(size) {
+		default is the smallest width (mobile-first);
+		you can add styles for each breakpoint, see global/_breakpoints.scss 
+		for the various options/sizes
+	} */
 }
-
 
 #content {
 	background: $white url('../images/bg-content.png') bottom right no-repeat;
 
 	&.widewrap {
 		width:100%;
-		max-width: 1680px;
+		min-width: 980px;
+		max-width: 1600px;
 		margin:0 auto;
 		background: none;
 		position: relative;
@@ -47,6 +40,8 @@ body {
 	position: absolute;
 	bottom:0;
 	right:0;
+	margin:0;
+	line-height:0;
 }
 
 .main-content {
@@ -57,6 +52,7 @@ body {
 .header {
 	border-top: 2em solid $yellow;
 	padding:0;
+	background-color:$white;
 }
 
 
@@ -251,8 +247,6 @@ ul {
 .hentry {
 	margin-bottom: 1.5em;
 
-	
-
 	ol {
 		margin-bottom: 1.677em;
 	}
@@ -270,8 +264,6 @@ ul {
 			margin: 0;
 		}
 	}
-
-	
 
 } /* end .hentry */
 
@@ -296,8 +288,6 @@ hr {
 .process-tiles {
 
 	div {
-		
-		
 
 		h2 {
 			color: $dark-red;
@@ -314,7 +304,7 @@ hr {
 	display:block;
 	width:100%;
 	height:100%;
-	padding:3em 5em 2em;
+	padding:3em 5% 2em;
 	background-color:$light-gray;
 	width:29.8%;
 	margin-right:2.9%;
@@ -431,7 +421,6 @@ hr {
 	  }	
 }
 
-
 .study-content {
 	float: none;
 	margin: 0 auto;
@@ -451,22 +440,27 @@ blockquote {
 	width: 40%;
 	float:right;
 
-	&.testimonial {
+	&.single-testimonial {
 		float: none;
 		margin: 0 auto;
 		width: 90%;
 		display: block;
 		padding:0 80px;
 		text-align: center;
+		text-shadow: none;
 
 		&::after {
 			content:' ';
 			background: url('../images/icon-quote-right.png') no-repeat;
 			position:absolute;
 			right:0;
-			top:-10px;
+			top:0px;
 			width:61px;
 			height:49px;
+		}
+
+		&::before {
+			top:0;
 		}
 
 		.person {
@@ -620,14 +614,6 @@ Align all images center for smallest screens
 	}
 }
 
-/* gallery caption styles */
-.gallery-caption {}
-
-.size-full {}
-.size-large {}
-.size-medium {}
-.size-thumbnail {}
-
 // the tag output
 .tags {
 margin: 0;
@@ -695,8 +681,6 @@ a, span {
 /* fallback previous & next links */
 .wp-prev-next {
 
-	ul {}
-
 	.prev-link {
 		float: left;
 	}
@@ -729,48 +713,57 @@ FOOTER STYLES
 	}
 }
 
-.organization-address, .copyright {
+.copyright {
 	text-align: center;
-	margin:0 auto .5em;
-	
-	@include breakpoint(laptop) {
-		margin:0 0 .5em;
-		text-align: left;
-		display:inline-block;
+	margin:1em auto 1em;
+	font-family:$title-family;
+	text-transform:uppercase;
+	font-size:.8em;
+	color:lighten($black, 25%);
 
-		& > div {
-			display:inline-block;
-		}
+	a, a:visited {
+		color:lighten($black, 25%);
 	}
+}
+
+.organization-address {
+	display:inline-block;
 }
 
 .contact {
 	margin-top:.5em;
+	font-size:1.2em;
+	width:85%;
+	float:left;
+	font-family: $title-family;
 
 	.item {
 		display: inline-block;
-		margin-right: 1em;
 		padding-right: 1em;
-		border-right: 1px solid $gray;
+		
 		line-height: 1em;
 
-		&:last-of-type {
-			border-right:none;
-			margin-right:0;
-			padding-right:0;
-		}
+
+		&::after {
+				content:"\f111";
+				font-family: FontAwesome;
+				font-size: .4em;
+				padding-left:2.25em;
+				display: inline-block;
+				vertical-align: middle;
+				color:$white;
+			}
 	}
 }
-
-
 
 /* SCROLLORAMA */
 
 .scrollblock {
-	
+	min-height: 300px;
+	height: auto;
 	margin:0;
 	position:relative;
-	min-height: 300px;
+	
 
 	.hometitle {
 		position:absolute;
@@ -786,14 +779,26 @@ FOOTER STYLES
 	}
 
 	.homebody {
-		padding:100px 100px 0 520px;
+		padding: 5% 5% 0 55%;
 		text-align: center;
 		font-size: 1.25em;
 		color:$white;
 
-		li {
-			margin-bottom: 2em;
+		ul {
+			margin-bottom: .5em;
 		}
+
+		li {
+			margin-bottom: 1.25em;
+		}
+
+		h5 a {
+			font-weight: 400;
+		}
+	}
+
+	&.OurServices .homebody {
+		padding:5% 0% 0 45%;
 	}
 }
 
@@ -801,18 +806,20 @@ FOOTER STYLES
 	text-align:center;
 	line-height:0;
 	position:relative;
-    background-size: cover;
     background-repeat: no-repeat;
-
+    background-size: cover;
 
 	.text {
-		position:absolute;
+		position:relative;
 		z-index: 100;
-		top:25%;
-		padding:0 25%;
+		padding:5% 15% 0;
 		color:$white;
 		width:100%;
-		
+
+		.flex-direction-nav a {
+			color:lighten($yellow,15%);
+			text-indent:-10000;
+		}
 
 		h1 {
 			font-size: 5.6em;
@@ -828,9 +835,57 @@ FOOTER STYLES
 			text-shadow: 3px 3px $dark-red;
 		}
 
+		blockquote {
+			float: none;
+			font-family: $serif;
+
+			&::before, &::after {
+				top:0;
+			}
+
+			hr {
+				background-color:$white;
+			}
+
+			span {
+				line-height: 1.5em;
+				font-size: .8em;
+				color:$white;
+			}
+
+			.person {
+				border-color:$white;
+			}
+
+			p {
+				text-shadow: none;
+				color:$white;
+				font-size:1em;
+				line-height: 1.5em;
+				font-weight: 400;
+			}
+			
+		}
+
 		.button {
 			text-shadow: none;
 		}
+
+		.gform_wrapper {
+			margin-bottom: 0;
+		}
+		
+
+		input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], input[type="file"], select, textarea, .field {
+			background-color:$text-red;
+			border-color:$light-red;
+			color:$white;
+		}
+
+		.gform_wrapper ul .float-left-half.gfield .ginput_container:before, .first-last .ginput_left:before, .first-last .ginput_right:before, .gform_wrapper .message .ginput_container:before {
+			color:$light-red !important;
+		}
+		
 	}
 }
 
@@ -840,7 +895,6 @@ FOOTER STYLES
 
 }
 
-
 .bg-red {
 	background-color:$red;
 
@@ -848,12 +902,14 @@ FOOTER STYLES
 		color:$light-red;
 		margin-bottom: .1em;
 		font-size:3.5em;
+		line-height: 1.2em;
 	}
 
 	h3 {
 		color:$yellow;
 		font-size: 2em;
 		margin-bottom:.1em;
+		line-height: 1.2em;
 	}
 
 	ul {
@@ -869,10 +925,10 @@ FOOTER STYLES
 		color:$white;
 		font-size: 3.1em;
 		margin-bottom: 1.5em;
+		line-height: 1.2em;
 	}
 
 	.button {
 		font-size: 1em;
 	}
 }
-

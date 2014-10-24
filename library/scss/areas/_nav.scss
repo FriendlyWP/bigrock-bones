@@ -1,32 +1,6 @@
 /*********************
 NAVIGATION STYLES
 *********************/
-.shortmenu {
-	display:inline-block;
-	float:right;
-	font-size:.8rem !important;
-
-	ul {
-		display: inline-block;
-		list-style: none;
-		margin:0;
-		padding:0;
-
-		li {
-			display: inline-block;
-			margin-right:.6em;
-			vertical-align: middle;
-
-			&:last-of-type {
-				margin-right: 0;
-			}
-		}
-	}
-}
-
-#menu-social-menu {
-	margin-top:0em;
-}
 
 #my-content #my-menu {
   display: none; 
@@ -48,15 +22,15 @@ NAVIGATION STYLES
 
 .main-nav {	
 	padding:0;
-	display: none;
+	display: inline-block;
 
-	@include breakpoint(laptop) {
-		display: inline-block;
+	/* @include breakpoint(laptop) { */
+		
 		float:right;
 		text-align: right;
 		width:74%;
 		margin-top: 45px;
-	}
+	/* } */
 }
 
 .nav {
@@ -100,7 +74,7 @@ NAVIGATION STYLES
 			
 		}
 
-		@include breakpoint(laptop) {
+		/* @include breakpoint(laptop) { */
 			
 			display: inline-block;
 			vertical-align: text-top;
@@ -193,8 +167,53 @@ NAVIGATION STYLES
 					padding:0;
 				}
 			}
-		}
+		/* } */
 	} /* end .menu li */
 
 
 } /* end .nav */
+
+.shortmenu, .nav.social-nav {
+	display:inline-block;
+	float:right;
+	font-size:.8rem !important;
+
+	ul {
+		display: inline-block;
+		list-style: none;
+		margin:0;
+		padding:0;
+
+		li {
+			display: inline-block;
+			margin-right:.6em;
+			vertical-align: middle;
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+
+			
+		}
+	}
+
+	.footer & {
+		a, a:visited {
+			color:$yellow;
+
+			&:after {
+				padding:0;
+				content:'';
+			}			
+		}
+	}
+}
+
+.social-nav {
+	width:15%;
+	font-size:.8em;
+}
+
+#menu-social-menu {
+	margin-top:0em;
+}

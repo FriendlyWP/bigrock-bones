@@ -46,7 +46,7 @@ get_header(); ?>
 									    $slug = preg_replace('/\s+/', '', get_sub_field('process_title')); ?>
 			        					<div class="process-info" id="div<?php echo $slug; ?>">
 										   
-										    <a href="<?php the_sub_field('process_file'); ?>" target="_blank"><img src="<?php the_sub_field('process_image'); ?>" class="noborder" alt="<?php the_sub_field('process_title'); ?>" /></a>
+										    <a href="<?php the_sub_field('process_pdf'); ?>" target="_blank"><img src="<?php the_sub_field('process_image'); ?>" class="noborder" alt="<?php the_sub_field('process_title'); ?>" /></a>
 									    </div>
 									    <?php 
 									    endwhile;

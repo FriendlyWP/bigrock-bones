@@ -21,13 +21,8 @@ jQuery(document).ready(function($) {
 	});
 
 	//SCROLLMAGIC
-	/*var controller;
-	controller = new ScrollMagic();
-	var scene = new ScrollScene({})
-		.setPin("#paginate")
-		.addTo(controller); */
 
-	 var scrollorama = $.scrollorama({
+	var scrollorama = $.scrollorama({
         blocks:'.scrollblock',
         enablePin:false
     });
@@ -36,8 +31,15 @@ jQuery(document).ready(function($) {
 	    duration:300, delay:100, property:'left', start:-500, end:0, easing:'easeInCubic'
 	});
 
-	scrollorama.onBlockChange(function() {
-    //alert('You just scrolled to block#'+scrollorama.blockIndex);
-});
+    scrollorama.animate('#WhoWeAre',{
+	    duration:1000, delay:0, property:'left', start:-600, end:0, easing:'easeInCubic'
+	});
+	scrollorama.animate('#OurServices',{
+	    duration:600, delay:100, property:'left', start:-500, end:0, easing:'easeInCubic'
+	});
+	scrollorama.animate('#FollowUs',{
+	    duration:600, delay:100, property:'left', start:-500, end:0, easing:'easeInCubic'
+	});
+	
 
 }); /* end of as page load scripts */

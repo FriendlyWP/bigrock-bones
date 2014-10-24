@@ -69,10 +69,10 @@
                     "prefix": "",
                     "type": "file",
                     "instructions": "",
-                    "required": 0,
+                    "required": 1,
                     "conditional_logic": 0,
                     "column_width": "",
-                    "return_format": "array",
+                    "return_format": "url",
                     "library": "all"
                 }
             ]

@@ -612,12 +612,11 @@ textarea,
   vertical-align: middle;
   box-shadow: none;
   width: 100%;
-  max-width: 400px;
   background-color: #fff;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000358}}
 input[type="text"]:focus, input[type="text"]:active,
 input[type="password"]:focus,
 input[type="password"]:active,
@@ -655,7 +654,7 @@ textarea:active,
 .field:active {
   background-color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000364}}
 input[type="text"].error, input[type="text"].is-invalid,
 input[type="password"].error,
 input[type="password"].is-invalid,
@@ -699,7 +698,7 @@ textarea.is-invalid,
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDREQkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDREQ0YwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ3ODRGRkE2RjA0QTExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERBRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+U8iT5wAAAedJREFUeNqk1U9I02Ecx/HtV3aIFAc1hcRDUoGXRAq0oNLA2CrsEFmHbikZu0iQYIFGYAiegkCpLipBxPpDEBMUzB0EhSG2LhG7hMR2GviPgUTvB57Bw8P3+U23B16HPX8+e/b8nt93wezZSMCnhXETF3AcB5BDCnH8Dq98ExcGHcFn8Ah3cdDni+fxnPDv9oAnTB7CKu6VCFXtChZy56LxUjt+jfuB8toSOth9wd7xWAWhqrUjYR/FRTwWJm+iIPT/w7bQf5ljiZnBg45dtKFX6H+LU8gIY8OEV6vgTkStwXWE8BPTGDHGPqNPz2mCfSOOYkA99TvCt1bhGPL68zMcwmncMuape10jrI+q4BbHi/FLn31S9z2x5tRhTc+1W506ipM+T3oRD4X+8+qtc4SqFvL0z/Fr14S+Szjis8bz9Lvvaq8cwS/wwGfdlqfPSWqTiFlX77o13u9Ym1PBs8JAytpRoy44X9Ft9E/gvbA+rYKn8NcaaMVc8UHgBw4b9/iqUQZ6hOAJFbyDcUflmsEX4a6+wTtHGfhAIUqa1U29Zc2BytouThD8x6xuN5CtMPi2CrXLZkZf/HyZoRFCP7n+QVR4PV7uI/AjGghN7OU/r1ilnqILtfpNC+o6vIFljBKYlhb/F2AAgaBsWR5wRiIAAAAASUVORK5CYII=);
   outline-color: #fbe3e4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000376}}
 input[type="text"].success, input[type="text"].is-valid,
 input[type="password"].success,
 input[type="password"].is-valid,
@@ -743,7 +742,7 @@ textarea.is-valid,
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDRERkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDRFMEYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY0MzQ0NERERjA0QjExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERFRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7olkTQAAAfhJREFUeNqklU9oE0EUhzdroWjw0tBeWlDxkEaIp55TsCU9VKIgCrHBelA8CQ1Kr1WPbZrQ3gqtQqvGqxpQc2jBk6BIIaAGD4qNCKURpDSKiPi98gLDsJt//uBjsztvfnk7895sIPAw6/joGMThFJyAXn2+A+9gA57/TaY/eU0OeBgfhGm4DiGnsb7DAszxBz/NAdcKjMJLuNWCqagHbsscN5+L+hmH4QkMOe1L5jzFfNA2PgT34ajTuY7AGuZB0/hmh5m+gS0r8xv1zRvg+gGCHZiOwnF4DP3iB3sQkYxPd2C6CWfhB9Xwlus5+K1j4jXuaq3a+gM1H9OPcAa+7q9lPidZJqHbiIm7Wg22rsEI7FrPSzAMX/T+ADyAKSsu7Fr1KplehLvwCs5DvfBf65p+MypqRbO1FXK9utH4/QKuaqYTsG3E3INJv00Q46px3+XxanJ/Ute2/vqP4FKDza2KcdljIKdnhS0xXYULTaqmLMZFn8FFSFtvt6x70ExFCS5oUXspq2ssa7oEl1swFa+CGFdgtkHgPDyDKy02zyxNU6lXRUZb1EuHYayNNs+Yh5B0WQo+/8fpJnNTZFuzz2OpjoQ2QruSOQlMy35fEGmEGMxY9e1brxobw7TkWA1h6xfckUPb+JhGoE/Hpfvew7qUld/H9J8AAwDpw3WYrxcZ3QAAAABJRU5ErkJggg==);
   outline-color: #e6efc2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000388}}
 input[type="text"][disabled], input[type="text"].is-disabled,
 input[type="password"][disabled],
 input[type="password"].is-disabled,
@@ -783,7 +782,7 @@ textarea.is-disabled,
   border-color: #f5f4f4;
   opacity: 0.6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\0000394}}
 input[type="text"][disabled]:focus, input[type="text"][disabled]:active, input[type="text"].is-disabled:focus, input[type="text"].is-disabled:active,
 input[type="password"][disabled]:focus,
 input[type="password"][disabled]:active,
@@ -856,14 +855,14 @@ textarea.is-disabled:active,
   background-color: #d5edf8;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003104}}
 textarea {
   max-width: 100%;
   min-height: 120px;
   line-height: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003110}}
 .gform_wrapper select {
   padding: 0;
   vertical-align: middle;
@@ -871,48 +870,48 @@ textarea {
   font-size: inherit;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003120}}
 input[type="checkbox"], input[type="radio"] {
   margin-right: .5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003124}}
 input[type="file"] {
   border: none;
   padding-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003129}}
 .gfield_time_hour.gfield_time_hour {
   line-height: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003132}}
 .gfield_time_hour.gfield_time_hour > label {
   float: left;
   width: 60%;
   margin-top: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003141}}
 .gfield_list_icons img {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003148}}
 .gfield_list_cell input {
   max-width: inherit !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003154}}
 .entry-content .gfield_list tr:nth-child(2n) {
   background-color: transparent;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003162}}
 .first-last .ginput_left, .first-last .ginput_right {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003165}}
 .first-last .ginput_left::before, .first-last .ginput_right::before {
   font-family: 'FontAwesome';
   color: #691c2a;
@@ -921,19 +920,26 @@ input[type="file"] {
   left: 15px;
   content: "\f007";
   z-index: 100;
+  line-height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003183}}
+#content .gform_wrapper .gform_footer.left_label {
+  padding: 1em 0 5em;
+  width: 98%;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003189}}
 #content .gform_wrapper .right_label div.ginput_complex, #content .gform_wrapper .left_label div.ginput_complex {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003194}}
 #content .gform_wrapper .first-last input, #content .gform_wrapper .phone input, #content .gform_wrapper .email input, #content .gform_wrapper .message input {
   padding-left: 3.5em;
   position: relative;
   z-index: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003202}}
 #content .gform_wrapper ul .float-left-half.gfield {
   display: inline-block;
   clear: none;
@@ -941,20 +947,20 @@ input[type="file"] {
   width: 47.5%;
   margin-right: 3.5%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003209}}
 #content .gform_wrapper ul .float-left-half.gfield.email {
   margin-right: 0;
   width: 46.5%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003214}}
 #content .gform_wrapper ul .float-left-half.gfield input.medium {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003218}}
 #content .gform_wrapper ul .float-left-half.gfield .ginput_container {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003221}}
 #content .gform_wrapper ul .float-left-half.gfield .ginput_container::before {
   font-family: 'FontAwesome';
   color: #691c2a;
@@ -963,20 +969,22 @@ input[type="file"] {
   left: 15px;
   content: "\f0e0";
   z-index: 100;
+  line-height: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003234}}
 #content .gform_wrapper ul .float-left-half.gfield.phone .ginput_container {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003237}}
 #content .gform_wrapper ul .float-left-half.gfield.phone .ginput_container::before {
   content: "\f10b";
+  line-height: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003246}}
 #content .gform_wrapper .message .ginput_container {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003249}}
 #content .gform_wrapper .message .ginput_container::before {
   font-family: 'FontAwesome';
   color: #691c2a;
@@ -985,15 +993,16 @@ input[type="file"] {
   left: 15px;
   content: "\f040";
   z-index: 100;
+  line-height: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003254}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003260}}
 #content .gform_wrapper .message .ginput_container textarea {
   width: 97.25%;
   padding: 1em 0 0 3.5em;
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/global\/_forms\.scss}line{font-family:\00003269}}
 .gform_wrapper .gform_footer.left_label {
   padding-left: 28%;
 }
@@ -1175,7 +1184,7 @@ body {
   line-height: 1.5;
   color: #220d12;
   -webkit-font-smoothing: antialiased;
-  background-color: #fff;
+  background-color: #220d12;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000311}}
@@ -1185,61 +1194,47 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000315}}
 .wrap {
-  width: 92%;
+  width: 980px;
   margin: 0 auto;
 }
-@media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000315}}
-  .wrap {
-    max-width: 760px;
-  }
-}
-@media (min-width: 64em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000315}}
-  .wrap {
-    max-width: 960px;
-  }
-}
-@media (min-width: 81.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000315}}
-  .wrap {
-    max-width: 960px;
-  }
-}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000320}}
 #content {
   background: #fff url("../images/bg-content.png") bottom right no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000323}}
 #content.widewrap {
   width: 100%;
-  max-width: 1680px;
+  min-width: 980px;
+  max-width: 1600px;
   margin: 0 auto;
   background: none;
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000333}}
 .mainbgimg {
   position: absolute;
   bottom: 0;
   right: 0;
+  margin: 0;
+  line-height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000341}}
 .main-content {
   margin: 5em 0 14em;
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000346}}
 .header {
   border-top: 2em solid #efbe6d;
   padding: 0;
+  background-color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000353}}
 #logo {
   margin: -25px 0 0 0;
   border: none;
@@ -1249,7 +1244,7 @@ body {
   width: 25%;
   max-width: 228px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000362}}
 #logo img {
   padding: 0;
   margin: 0;
@@ -1258,7 +1253,7 @@ body {
 /*********************
 LINK STYLES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000372}}
 a, a:visited {
   color: #efbe6d;
   text-decoration: none;
@@ -1267,15 +1262,15 @@ a, a:visited {
   /* on click */
   /* mobile tap color */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000378}}
 a:hover, a:focus, a:visited:hover, a:visited:focus {
   color: #f68d3d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000383}}
 a:active, a:visited:active {
   color: #5c1623;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000388}}
 a:link, a:visited:link {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
@@ -1283,19 +1278,19 @@ a:link, a:visited:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\0000397}}
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   text-rendering: optimizelegibility;
   font-weight: 500;
   margin: 0 0 .675em 0;
   font-family: "Hammersmith One", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003104}}
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003109}}
 h1, .h1 {
   font-size: 2.5em;
   line-height: 1.333em;
@@ -1303,7 +1298,7 @@ h1, .h1 {
   color: #f68d3d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003116}}
 h2, .h2 {
   font-size: 2em;
   line-height: 1.4em;
@@ -1311,35 +1306,35 @@ h2, .h2 {
   font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003123}}
 h3, .h3 {
   font-size: 1.5em;
   text-transform: uppercase;
   color: #691c2a;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003129}}
 h4, .h4 {
   font-size: 1.5em;
   color: #f68d3d;
   font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003135}}
 h5, .h5 {
   font-size: 1.2em;
   text-transform: uppercase;
   color: #efbe6d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003141}}
 h6 {
   font-size: 1.2em;
   color: #691c2a;
   font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003147}}
 .article-header {
   background-color: #691c2a;
   color: #fff;
@@ -1347,18 +1342,18 @@ h6 {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003154}}
 .single-title,
 .entry-title {
   margin: 0 0 .5em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003159}}
 .archive-title, .single-title {
   font-size: 2.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003163}}
 .page-title {
   height: 236px;
   padding: 1em 0 1em 300px;
@@ -1371,7 +1366,7 @@ h6 {
   color: #fff;
   background: url("../images/icon-contact.png") left no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003175}}
 .page-title::before {
   content: ' ';
   width: 0;
@@ -1384,32 +1379,32 @@ h6 {
   border-right: 30px solid transparent;
   border-top: 25px solid #691c2a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003188}}
 .page-parent-about-us .page-title {
   background-image: url("../images/icon-about-us.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003192}}
 .page-parent-case-studies .page-title {
   background-image: url("../images/icon-case-studies.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003196}}
 .page-parent-process .page-title {
   background-image: url("../images/icon-process.png");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003200}}
 .page-parent-services .page-title {
   background-image: url("../images/icon-services.png");
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003206}}
 .entry-title {
   font-size: 2.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003209}}
 .entry-title a {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003213}}
 .post-type-archive-case_study .entry-title {
   width: 40%;
   margin-right: 3%;
@@ -1417,12 +1412,12 @@ h6 {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003221}}
 p {
   margin: 0 0 1.677em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003229}}
 .searchform input {
   display: inline-block;
 }
@@ -1430,35 +1425,35 @@ p {
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003237}}
 ul {
   list-style: square url(../images/icon-bullet.png);
   margin: 0 0 1.677em 5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003241}}
 .hentry {
   margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003246}}
 .hentry ol {
   margin-bottom: 1.677em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003250}}
 .hentry img {
   border: 3px solid #d8d7d8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003253}}
 .hentry img.noborder {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003259}}
 .hentry footer p {
   margin: 0;
 }
 
 /* end .hentry */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003269}}
 hr {
   border: none;
   background-color: #d8d7d8;
@@ -1468,61 +1463,61 @@ hr {
 }
 
 /* post meta */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003278}}
 .byline {
   color: #d8d7d8;
   font-style: italic;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003292}}
 .process-tiles div h2 {
   color: #2b111c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003296}}
 .process-tiles div:last-of-type {
   margin-right: 0 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003303}}
 .process-title {
   display: block;
   width: 100%;
   height: 100%;
-  padding: 3em 5em 2em;
+  padding: 3em 5% 2em;
   background-color: #f5f4f4;
   width: 29.8%;
   margin-right: 2.9%;
   float: left;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003315}}
 .process-title.active {
   background: #2b111c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003320}}
 .process-title:hover button {
   background-color: #f68d3d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003326}}
 .process-info {
   margin: 0 auto;
   text-align: center;
 }
 
 /* entry content */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003333}}
 .entry-content {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003336}}
 .entry-content table {
   width: 100%;
   border: 1px solid #d8d7d8;
   margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003341}}
 .entry-content table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -1530,41 +1525,41 @@ hr {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003350}}
 .entry-content tr {
   border-bottom: 1px solid #d8d7d8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003353}}
 .entry-content tr:nth-child(even) {
   background-color: #f5f4f4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003358}}
 .entry-content td {
   padding: 7px;
   border-right: 1px solid #d8d7d8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003362}}
 .entry-content td:last-child {
   border-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003367}}
 .entry-content th {
   background-color: #f5f4f4;
   border-bottom: 1px solid #d8d7d8;
   border-right: 1px solid #d8d7d8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003372}}
 .entry-content th:last-child {
   border-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003377}}
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003384}}
 .entry-content .size-auto,
 .entry-content .size-full,
 .entry-content .size-large,
@@ -1573,7 +1568,7 @@ hr {
   max-width: 100%;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003403}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003393}}
 .entry-content pre {
   background: #220d12;
   color: #f5f4f4;
@@ -1584,18 +1579,18 @@ hr {
 }
 
 /* end .entry-content */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003414}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003404}}
 #breadcrumbs {
   font-size: .8em;
   margin-bottom: .5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003409}}
 .email_link {
   position: relative;
   padding-left: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003413}}
 .email_link::before {
   font-family: 'FontAwesome';
   position: absolute;
@@ -1606,7 +1601,7 @@ hr {
   color: #f68d3d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003424}}
 .study-content {
   float: none;
   margin: 0 auto;
@@ -1615,7 +1610,7 @@ hr {
   padding: 0 80px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003432}}
 blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 80px;
@@ -1627,43 +1622,48 @@ blockquote {
   width: 40%;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003454}}
-blockquote.testimonial {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003443}}
+blockquote.single-testimonial {
   float: none;
   margin: 0 auto;
   width: 90%;
   display: block;
   padding: 0 80px;
   text-align: center;
+  text-shadow: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003462}}
-blockquote.testimonial::after {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003452}}
+blockquote.single-testimonial::after {
   content: ' ';
   background: url("../images/icon-quote-right.png") no-repeat;
   position: absolute;
   right: 0;
-  top: -10px;
+  top: 0px;
   width: 61px;
   height: 49px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003472}}
-blockquote.testimonial .person {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003462}}
+blockquote.single-testimonial::before {
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003466}}
+blockquote.single-testimonial .person {
   margin-right: 1em;
   padding-right: 1em;
   border-right: 1px solid #efbe6d;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003479}}
-blockquote.testimonial hr {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003473}}
+blockquote.single-testimonial hr {
   background-color: #efbe6d;
   margin: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003479}}
 blockquote :last-child {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003490}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003484}}
 blockquote::before {
   content: ' ';
   background: url("../images/icon-quote-left.png") no-repeat;
@@ -1674,29 +1674,29 @@ blockquote::before {
   height: 49px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003501}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003495}}
 .testimonial-pagination {
   font-size: 3em;
   position: relative;
   top: 0px;
   height: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003507}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003501}}
 .testimonial-pagination > div {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003510}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003504}}
 .testimonial-pagination .next {
   float: right;
   /*	padding-top:100px; */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003509}}
 .testimonial-pagination .previous {
   float: left;
   /*	padding-top:100px; */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003521}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003515}}
 img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
@@ -1706,7 +1706,7 @@ img {
 /*
 Align all images center for smallest screens
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003524}}
 .alignleft, img.alignleft,
 .alignright, img.alignright,
 .aligncenter, img.aligncenter {
@@ -1716,7 +1716,7 @@ Align all images center for smallest screens
   clear: both;
 }
 @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003524}}
   .alignleft, img.alignleft,
   .alignright, img.alignright,
   .aligncenter, img.aligncenter {
@@ -1725,7 +1725,7 @@ Align all images center for smallest screens
 }
 
 @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003544}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003538}}
   .alignleft, img.alignleft {
     margin-right: 1.5em;
     float: left;
@@ -1734,7 +1734,7 @@ Align all images center for smallest screens
 }
 
 @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003552}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003546}}
   .alignright, img.alignright {
     margin-left: 1.5em;
     float: right;
@@ -1742,7 +1742,7 @@ Align all images center for smallest screens
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003560}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003554}}
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -1752,7 +1752,7 @@ Align all images center for smallest screens
   overflow: hidden;
   margin-bottom: 1.677em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003569}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003563}}
 .video-container iframe, .video-container object, .video-container embed {
   position: absolute;
   top: 0;
@@ -1761,14 +1761,14 @@ Align all images center for smallest screens
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003578}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003572}}
 .wp-caption, .html5-captions .wp-caption {
   max-width: 100%;
   background: #f5f4f4;
   padding: .2em;
   /* images inside wp-caption */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003584}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003578}}
 .wp-caption img, .html5-captions .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
@@ -1776,7 +1776,7 @@ Align all images center for smallest screens
 }
 
 /* end .wp-caption */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003592}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003586}}
 .wp-caption-text {
   font-size: 0.85em;
   margin: .2em 0 .3em;
@@ -1785,7 +1785,7 @@ Align all images center for smallest screens
 }
 
 /* image gallery styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003598}}
 .gallery-item {
   display: inline-block;
   margin: 0 2% 1em 0;
@@ -1793,23 +1793,23 @@ Align all images center for smallest screens
   vertical-align: top;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003611}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003605}}
 .gallery-item img {
   margin-bottom: 0;
 }
 @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003598}}
   .gallery-item {
     width: 49%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003617}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003611}}
   .gallery-item:nth-child(2n+2) {
     margin-right: 0;
   }
 }
 
 /* gallery caption styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003632}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003626}}
 .tags {
   margin: 0;
 }
@@ -1817,17 +1817,17 @@ Align all images center for smallest screens
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003640}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003634}}
 .pagination,
 .wp-prev-next {
   margin: 1.5em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003644}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003638}}
 .pagination {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003647}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003641}}
 .pagination ul {
   display: inline-block;
   background-color: #fff;
@@ -1836,7 +1836,7 @@ PAGE NAVI STYLES
   clear: both;
   border-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003656}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003650}}
 .pagination li {
   padding: 0;
   margin: 0;
@@ -1845,7 +1845,7 @@ PAGE NAVI STYLES
   overflow: hidden;
   border-right: 1px solid #d8d7d8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003665}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003659}}
 .pagination a, .pagination span {
   margin: 0;
   text-decoration: none;
@@ -1858,17 +1858,17 @@ PAGE NAVI STYLES
   display: block;
   color: #2980b9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003677}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003671}}
 .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
   background-color: #2980b9;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003683}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003677}}
 .pagination .current {
   cursor: default;
   color: #220d12;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003687}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003681}}
 .pagination .current:hover, .pagination .current:focus {
   background-color: #fff;
   color: #220d12;
@@ -1876,11 +1876,11 @@ PAGE NAVI STYLES
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003700}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003694}}
 .wp-prev-next .prev-link {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003704}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003698}}
 .wp-prev-next .next-link {
   float: right;
 }
@@ -1889,7 +1889,7 @@ PAGE NAVI STYLES
 /*********************
 FOOTER STYLES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003715}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003709}}
 .footer {
   clear: both;
   background-color: #220d12;
@@ -1897,158 +1897,230 @@ FOOTER STYLES
   padding: 1em 0;
   font-size: .9em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003722}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003716}}
 .footer p {
   margin-bottom: .677em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003726}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003720}}
 .footer a, .footer a:visited {
   color: #d8d7d8;
   border-color: #d8d7d8;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003732}}
-.organization-address, .copyright {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003726}}
+.copyright {
   text-align: center;
-  margin: 0 auto .5em;
+  margin: 1em auto 1em;
+  font-family: "Hammersmith One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: .8em;
+  color: #7e3043;
 }
-@media (min-width: 64em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003732}}
-  .organization-address, .copyright {
-    margin: 0 0 .5em;
-    text-align: left;
-    display: inline-block;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003741}}
-  .organization-address > div, .copyright > div {
-    display: inline-block;
-  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003734}}
+.copyright a, .copyright a:visited {
+  color: #7e3043;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003747}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003739}}
+.organization-address {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003743}}
 .contact {
   margin-top: .5em;
+  font-size: 1.2em;
+  width: 85%;
+  float: left;
+  font-family: "Hammersmith One", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003750}}
 .contact .item {
   display: inline-block;
-  margin-right: 1em;
   padding-right: 1em;
-  border-right: 1px solid #d8d7d8;
   line-height: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003757}}
-.contact .item:last-of-type {
-  border-right: none;
-  margin-right: 0;
-  padding-right: 0;
+.contact .item::after {
+  content: "\f111";
+  font-family: FontAwesome;
+  font-size: .4em;
+  padding-left: 2.25em;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
 }
 
 /* SCROLLORAMA */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003769}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003773}}
 .scrollblock {
+  min-height: 300px;
+  height: auto;
   margin: 0;
   position: relative;
-  min-height: 300px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003775}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003780}}
 .scrollblock .hometitle {
   position: absolute;
   left: 0;
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003780}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003785}}
 .scrollblock .hometitle h3 {
   font-size: 2.5em;
   color: #fff;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003788}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003793}}
 .scrollblock .homebody {
-  padding: 100px 100px 0 520px;
+  padding: 5% 5% 0 55%;
   text-align: center;
   font-size: 1.25em;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003794}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003799}}
+.scrollblock .homebody ul {
+  margin-bottom: .5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003803}}
 .scrollblock .homebody li {
-  margin-bottom: 2em;
+  margin-bottom: 1.25em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003807}}
+.scrollblock .homebody h5 a {
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003812}}
+.scrollblock.OurServices .homebody {
+  padding: 5% 0% 0 45%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003800}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003817}}
 .full-image-block {
   text-align: center;
   line-height: 0;
   position: relative;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003808}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003824}}
 .full-image-block .text {
-  position: absolute;
+  position: relative;
   z-index: 100;
-  top: 25%;
-  padding: 0 25%;
+  padding: 5% 15% 0;
   color: #fff;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003817}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003831}}
+.full-image-block .text .flex-direction-nav a {
+  color: #f7ddb2;
+  text-indent: -10000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003836}}
 .full-image-block .text h1 {
   font-size: 5.6em;
   color: #fff;
   line-height: 1em;
   margin-bottom: .1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003825}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003844}}
 .full-image-block .text p {
   font-size: 1.75em;
   line-height: 1.25em;
   text-shadow: 3px 3px #2b111c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003831}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003850}}
+.full-image-block .text blockquote {
+  float: none;
+  font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003854}}
+.full-image-block .text blockquote::before, .full-image-block .text blockquote::after {
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003858}}
+.full-image-block .text blockquote hr {
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003862}}
+.full-image-block .text blockquote span {
+  line-height: 1.5em;
+  font-size: .8em;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003868}}
+.full-image-block .text blockquote .person {
+  border-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003872}}
+.full-image-block .text blockquote p {
+  text-shadow: none;
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003882}}
 .full-image-block .text .button {
   text-shadow: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003886}}
+.full-image-block .text .gform_wrapper {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003891}}
+.full-image-block .text input[type="text"], .full-image-block .text input[type="password"], .full-image-block .text input[type="datetime"], .full-image-block .text input[type="datetime-local"], .full-image-block .text input[type="date"], .full-image-block .text input[type="month"], .full-image-block .text input[type="time"], .full-image-block .text input[type="week"], .full-image-block .text input[type="number"], .full-image-block .text input[type="email"], .full-image-block .text input[type="url"], .full-image-block .text input[type="search"], .full-image-block .text input[type="tel"], .full-image-block .text input[type="color"], .full-image-block .text input[type="file"], .full-image-block .text select, .full-image-block .text textarea, .full-image-block .text .field {
+  background-color: #5c1623;
+  border-color: #91263a;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003897}}
+.full-image-block .text .gform_wrapper ul .float-left-half.gfield .ginput_container:before, .full-image-block .text .first-last .ginput_left:before, .full-image-block .text .first-last .ginput_right:before, .full-image-block .text .gform_wrapper .message .ginput_container:before {
+  color: #91263a !important;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003837}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003904}}
 .bg-yellow {
   background-color: #efbe6d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003844}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003911}}
 .bg-red {
   background-color: #691c2a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003847}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003914}}
 .bg-red h1 {
   color: #91263a;
   margin-bottom: .1em;
   font-size: 3.5em;
+  line-height: 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003853}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003921}}
 .bg-red h3 {
   color: #efbe6d;
   font-size: 2em;
   margin-bottom: .1em;
+  line-height: 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003859}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003928}}
 .bg-red ul {
   margin-top: 2em;
   margin-bottom: 2.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003865}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003934}}
 .bg-dark-red {
   background-color: #2b111c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003868}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003937}}
 .bg-dark-red h3 {
   color: #fff;
   font-size: 3.1em;
   margin-bottom: 1.5em;
+  line-height: 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003874}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Michelle\/Documents\/Websites\/bigrock\.dev\/wp-content\/themes\/bigrock-bones\/library\/scss\/areas\/_content\.scss}line{font-family:\00003944}}
 .bg-dark-red .button {
   font-size: 1em;
 }

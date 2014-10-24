@@ -42,9 +42,6 @@ function bones_ahoy() {
   // launching this stuff after theme setup
   bones_theme_support();
 
-  // adding sidebars to Wordpress (these are created in functions.php)
-  add_action( 'widgets_init', 'bones_register_sidebars' );
-
   // cleaning up random code around images
   add_filter( 'the_content', 'bones_filter_ptags_on_images' );
   // cleaning up excerpt
@@ -54,44 +51,6 @@ function bones_ahoy() {
 
 // let's get this party started
 add_action( 'after_setup_theme', 'bones_ahoy' );
-
-/************* THUMBNAIL SIZE OPTIONS *************/
-
-// Thumbnail sizes
-
-
-add_filter( 'image_size_names_choose', 'bones_custom_image_sizes' );
-
-function bones_custom_image_sizes( $sizes ) {
-    return array_merge( $sizes, array(
-        //'bones-thumb-600' => __('600px by 150px'),
-        //'bones-thumb-300' => __('300px by 100px'),
-    ) );
-}
-
-/*
-The function above adds the ability to use the dropdown menu to select
-the new images sizes you have just created from within the media manager
-when you add media to your content blocks. If you add more image sizes,
-duplicate one of the lines in the array and name it according to your
-new image size.
-*/
-
-/************* ACTIVE SIDEBARS ********************/
-
-// Sidebars & Widgetizes Areas
-function bones_register_sidebars() {
-	register_sidebar(array(
-		'id' => 'sidebar1',
-		'name' => __( 'Sidebar 1', 'bonestheme' ),
-		'description' => __( 'The first (primary) sidebar.', 'bonestheme' ),
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget' => '</div>',
-		'before_title' => '<h4 class="widgettitle">',
-		'after_title' => '</h4>',
-	));
-
-} // don't remove this bracket!
 
 
 /************* COMMENT LAYOUT *********************/

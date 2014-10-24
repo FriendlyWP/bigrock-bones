@@ -119,17 +119,19 @@ function bones_scripts_and_styles() {
 			wp_dequeue_style('wp-columna');	
 		}
 
-		// TweenMax
-		wp_register_script( 'tweenmax', 'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/TweenMax.min.js', array( 'jquery' ), '', false );
-		//wp_enqueue_script('tweenmax');
+		if ( is_page_template('tmpl-home.php') || is_page('testimonials') ) {
+			// Flexslider
+			wp_register_script( 'flexslider', get_stylesheet_directory_uri() . '/library/js/libs/FlexSlider/jquery.flexslider-min.js', array( 'jquery' ), '', false );
+			wp_enqueue_script('flexslider');
+			wp_enqueue_style( 'flexslider-css', get_stylesheet_directory_uri() . '/library/js/libs/FlexSlider/flexslider.css');
+		}
 
-		// ScrollMagic
-		wp_register_script( 'scrollmagic', get_stylesheet_directory_uri() . '/library/js/libs/ScrollMagic-master/js/jquery.scrollmagic.min.js', array( 'jquery' ), '', false );
-		//wp_enqueue_script('scrollmagic');
-
-		// Scrollorama
-		wp_register_script( 'scrollorama', get_stylesheet_directory_uri() . '/library/js/libs/scrollorama/js/jquery.scrollorama.js', array( 'jquery' ), '', false );
-		wp_enqueue_script('scrollorama');
+		if ( is_page_template('tmpl-home.php') ) {
+			// Scrollorama
+			wp_register_script( 'scrollorama', get_stylesheet_directory_uri() . '/library/js/libs/scrollorama/js/jquery.scrollorama.js', array( 'jquery' ), '', false );
+			wp_enqueue_script('scrollorama');
+		}
+		
 		
 		// Google Fonts
         wp_enqueue_style( 'googleFonts', 'http://fonts.googleapis.com/css?family=Hammersmith+One|Roboto+Slab:400,700');
@@ -142,9 +144,9 @@ function bones_scripts_and_styles() {
 		$wp_styles->add_data( 'bones-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
 
 		/* styles for mobile menu imported in style.scss */
-		wp_register_script( 'mmenu-js', get_stylesheet_directory_uri() . '/library/js/libs/jquery-mmenu-master/src/js/jquery.mmenu.min.all.js', array( 'jquery' ), '', false );
+		/* wp_register_script( 'mmenu-js', get_stylesheet_directory_uri() . '/library/js/libs/jquery-mmenu-master/src/js/jquery.mmenu.min.all.js', array( 'jquery' ), '', false );
 
-		wp_enqueue_script( 'mmenu-js' );
+		wp_enqueue_script( 'mmenu-js' ); */
 		
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'bones-js' );
@@ -165,36 +167,12 @@ function bones_theme_support() {
 	// default thumb size
 	set_post_thumbnail_size(125, 125, true);
 
-	// wp custom background (thx to @bransonwerner for update)
-	add_theme_support( 'custom-background',
-	    array(
-	    'default-image' => '',    // background image default
-	    'default-color' => '',    // background color default (dont add the #)
-	    'wp-head-callback' => '_custom_background_cb',
-	    'admin-head-callback' => '',
-	    'admin-preview-callback' => ''
-	    )
-	);
 
 	// rss thingy
 	add_theme_support('automatic-feed-links');
 
 	// to add header image support go here: http://themble.com/support/adding-header-background-image-support/
 
-	// adding post format support
-	/* add_theme_support( 'post-formats',
-		array(
-			'aside',             // title less blurb
-			'gallery',           // gallery of images
-			'link',              // quick link to other site
-			'image',             // an image
-			'quote',             // a quick quote
-			'status',            // a Facebook like status update
-			'video',             // video
-			'audio',             // audio
-			'chat'               // chat transcript
-		)
-	); */
 
 	// Use HTML5 Galleries, which don't include style tags
 	// see http://make.wordpress.org/core/2014/04/15/html5-galleries-captions-in-wordpress-3-9/
@@ -208,42 +186,11 @@ function bones_theme_support() {
 		array(
 			'main-nav' => __( 'The Main Menu', 'bonestheme' ),   // main nav in header
 			'social-nav' => __( 'The Social Menu', 'bonestheme' ),   // social nav
-			'footer-nav' => __( 'The Footer Menu', 'bonestheme' ) // secondary nav in footer
 		)
 	);
 } /* end bones theme support */
 
 
-/*********************
-RELATED POSTS FUNCTION
-*********************/
-
-// Related Posts Function (call using bones_related_posts(); )
-function bones_related_posts() {
-	echo '<ul id="bones-related-posts">';
-	global $post;
-	$tags = wp_get_post_tags( $post->ID );
-	if($tags) {
-		foreach( $tags as $tag ) {
-			$tag_arr .= $tag->slug . ',';
-		}
-		$args = array(
-			'tag' => $tag_arr,
-			'numberposts' => 5, /* you can change this to show more */
-			'post__not_in' => array($post->ID)
-		);
-		$related_posts = get_posts( $args );
-		if($related_posts) {
-			foreach ( $related_posts as $post ) : setup_postdata( $post ); ?>
-				<li class="related_post"><a class="entry-unrelated" href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></li>
-			<?php endforeach; }
-		else { ?>
-			<?php echo '<li class="no_related_post">' . __( 'No Related Posts Yet!', 'bonestheme' ) . '</li>'; ?>
-		<?php }
-	}
-	wp_reset_postdata();
-	echo '</ul>';
-} /* end bones related posts function */
 
 /*********************
 PAGE NAVI

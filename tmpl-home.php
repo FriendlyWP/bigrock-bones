@@ -7,8 +7,6 @@ get_header(); ?>
 
 			<div id="content" class="widewrap">
 
-
-
 				<?php 
 				// check if the flexible content field has rows of data
 				if( have_rows('home_content') ) {
@@ -66,5 +64,6 @@ get_header(); ?>
 
 				<img src="<?php echo get_template_directory_uri(); ?>/library/images/bg-content.png" class="mainbgimg" />
 			</div>
+			
 
 <?php get_footer(); ?>

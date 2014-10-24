@@ -103,24 +103,4 @@
 
 				</div>
 
-				<div class="topmenu cf">
-					
-					<div class="wrap">
-					
-				</div>
-
-				<script type="text/javascript">
-					jQuery(document).ready(function($) {
-					      
-				      jQuery("#my-menu").mmenu({
-			             classes: "mm-zoom-page mm-zoom-menu mm-zoom-panels"
-			         });
-
-				      jQuery("#my-button").click(function() {
-				         jQuery("#my-menu").trigger("open.mm");
-				      });
-
-				    });
-
-				</script>
 			</header>

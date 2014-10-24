@@ -21,7 +21,7 @@
 						</div>
 
 							<?php if (function_exists('get_field') && get_field('quote')) { 
-								echo '<blockquote class="testimonial">';
+								echo '<blockquote class="single-testimonial">';
 									the_field('quote');
 									echo '<hr />';
 									echo '<span class="person">' . get_the_title() . '</span>';
