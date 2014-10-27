@@ -47,7 +47,7 @@ textarea,
   font-size: 1em;
   color: $text-color;
   border-radius: 3px;
-  border:1px solid $light-gray;
+  border:1px solid $text-red;
   vertical-align: middle;
   box-shadow: none;
   width: 100%;
@@ -193,6 +193,7 @@ input[type="file"] {
     .first-last, .phone, .email, .message {
       input {
         padding-left:3.5em;  
+        line-height: 100%;
         position:relative;
         z-index: 1;
       }

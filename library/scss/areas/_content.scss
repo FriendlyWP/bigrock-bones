@@ -14,6 +14,7 @@ body {
 
 .wrap {
 	width: 980px;
+	padding:0 1%;
 	margin: 0 auto;
 
 	/* @include breakpoint(size) {
@@ -21,6 +22,10 @@ body {
 		you can add styles for each breakpoint, see global/_breakpoints.scss 
 		for the various options/sizes
 	} */
+}
+
+#inner-header {
+	background-color:$white;
 }
 
 #content {
@@ -314,11 +319,29 @@ hr {
 
 	&.active {
 		background:$dark-red;
+
+		button {
+			background-color:$orange;
+			color:$white;
+			&::after {
+				content: '\f107';
+				font-size: 1.2em;
+				padding-left:.8em;
+				font-weight: 700;
+			}
+		}
 	}
 
 	&:hover {
 		button {
 			background-color:$orange;
+
+			&::after {
+				content: '\f107';
+				font-size: 1.2em;
+				padding-left:.8em;
+				font-weight: 700;
+			}
 		}
 	}
 }
@@ -764,7 +787,9 @@ FOOTER STYLES
 	margin:0;
 	position:relative;
 	
-
+	&:last-of-type {
+		padding-bottom:130px;
+	}
 	.hometitle {
 		position:absolute;
 		left:0;
@@ -794,6 +819,19 @@ FOOTER STYLES
 
 		h5 a {
 			font-weight: 400;
+			color:$yellow;
+
+			&:hover {
+				color:$yellow;
+			}
+		}
+
+		h5 {
+			font-size: 1em;
+
+			@include breakpoint(desktop) {
+				font-size: 1.2em;
+			}
 		}
 	}
 
@@ -802,12 +840,19 @@ FOOTER STYLES
 	}
 }
 
+#homediv-4 {
+	.homebody {
+		padding:5% 5% 0 45%;
+	}
+}
+
 .full-image-block {
 	text-align:center;
 	line-height:0;
 	position:relative;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 50% 100%;
+
 
 	.text {
 		position:relative;
@@ -826,13 +871,13 @@ FOOTER STYLES
 			color:$white;
 			line-height: 1em;
 			margin-bottom: .1em;
-
+			text-shadow: 1px 1px 5px rgba(34, 13, 18, 0.51);
 		}
 
 		p {
 			font-size: 1.75em;
 			line-height: 1.25em;
-			text-shadow: 3px 3px $dark-red;
+			text-shadow: 1px 1px 5px rgba(34, 13, 18, 0.51);
 		}
 
 		blockquote {

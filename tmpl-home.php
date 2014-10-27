@@ -10,7 +10,7 @@ get_header(); ?>
 				<?php 
 				// check if the flexible content field has rows of data
 				if( have_rows('home_content') ) {
-
+					$count = 0;
 				     // loop through the rows of data
 				    while ( have_rows('home_content') ) : the_row();
 
@@ -21,7 +21,7 @@ get_header(); ?>
 						        $height = $fullbgimage['height'];
 						    }
 				        	?>
-					        <div class="scrollblock full-image-block <?php echo get_sub_field('style'); ?>" <?php if ($fullbgimage !== '' ) { ?> style="background-image:url('<?php echo $fullbgimage['url']; ?>'); height:<?php echo $height; ?>px;" <?php } ?> >
+					        <div id="homediv-<?php echo $count; ?>" class="scrollblock full-image-block <?php echo get_sub_field('style'); ?>" <?php if ($fullbgimage !== '' ) { ?> style="background-image:url('<?php echo $fullbgimage['url']; ?>'); height:<?php echo $height; ?>px;" <?php } ?> >
 					        	<?php 
 					        	if (get_sub_field ('text')) {
 					        		echo '<div class="text"  id="' . $slug . '">' . get_sub_field('text') . '</div>';
@@ -38,14 +38,14 @@ get_header(); ?>
 			       			$halfwidth = $width/4; // padding-left: 25%;
 			       			$slug = preg_replace('/\s+/', '', get_sub_field('block_title'));
 				       		?>
-				       	<div class="scrollblock cf two-column-block <?php echo get_sub_field('style'); ?>" style="height:<?php echo $height; ?>px;">
+				       	<div id="homediv-<?php echo $count; ?>" class="scrollblock cf two-column-block <?php echo get_sub_field('style'); ?>" style="height:<?php echo $height; ?>px;">
 				       		<?php 
 				       		if (get_sub_field('block_title')) {
 				       			 ?>
 				       			<div id="<?php echo $slug; ?>" class="hometitle" style="background-image:url('<?php echo $bgimage['url']; ?>'); background-repeat:no-repeat; height:<?php echo $height; ?>px; width:<?php echo $width; ?>px;"><h3 style="padding-top:<?php echo $halfheight; ?>px;padding-left:<?php echo $halfwidth; ?>px;"><?php echo get_sub_field('block_title'); ?></h3></div>
 				       		<?php }
 					        	if (get_sub_field('block_content') ) {
-					        		echo '<div class="homebody">' . get_sub_field('block_content');
+					        		echo '<div class="homebody cf">' . get_sub_field('block_content');
 					        		echo '</div>';
 
 					        	}
@@ -53,6 +53,7 @@ get_header(); ?>
 
 				        </div>
 				    <?php 	} 
+				    ++$count;
 				    endwhile;
 
 				} else {

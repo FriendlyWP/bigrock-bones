@@ -20,8 +20,24 @@ jQuery(document).ready(function($) {
 	    $(this).addClass('active');
 	});
 
-	//SCROLLMAGIC
+	$('#homediv-0').css('min-height', $(window).height() - 167);
+	
 
+	$('#homediv-0').height($('#photo').height());
+
+	// NICE SCROLL FOR JUMPLINKS
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing');
+	});
+
+	//SCROLLMAGIC
 	var scrollorama = $.scrollorama({
         blocks:'.scrollblock',
         enablePin:false
