@@ -200,7 +200,7 @@ h6 {
 		background-image: url('../images/icon-about-us.png');
 	}
 
-	.page-parent-case-studies & {
+	.page-parent-case-studies &, .post-type-archive-case_study & {
 		background-image: url('../images/icon-case-studies.png');
 	}
 

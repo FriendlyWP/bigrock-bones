@@ -20,10 +20,10 @@ jQuery(document).ready(function($) {
 	    $(this).addClass('active');
 	});
 
-	$('#homediv-0').css('min-height', $(window).height() - 167);
+	//$('#homediv-0').css('min-height', $(window).height() - 167);
 	
 
-	$('#homediv-0').height($('#photo').height());
+	//$('#homediv-0').height($('#photo').height());
 
 	// NICE SCROLL FOR JUMPLINKS
 	$('a[href^="#"]').on('click',function (e) {
