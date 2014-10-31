@@ -11,7 +11,7 @@
 						   		<?php } ?>
 							   <?php if (get_field('contact_email', 'option')) { 
 							   	$email = get_field('contact_email', 'option'); ?>
-							   		<span class="item"><a href="mailto:<?php echo antispambot($email); ?>" target="_blank" itemprop="email"><?php echo antispambot($email); ?></a></span>
+							   		<span class="item"><a href="mailto:<?php echo antispambot($email); ?>" target="_blank" itemprop="email"><?php echo antispambot('info@bigrockeducation.com'); ?></a></span>
 							   <?php } ?>
 							
 								<div itemscope itemtype="http://schema.org/Organization" class="organization-address" >
