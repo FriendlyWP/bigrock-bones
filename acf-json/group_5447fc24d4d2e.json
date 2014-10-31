@@ -63,17 +63,22 @@
                     "library": "all"
                 },
                 {
-                    "key": "field_5447fc738d729",
-                    "label": "Process PDF",
-                    "name": "process_pdf",
+                    "key": "field_5453bfc4a1d20",
+                    "label": "Image Map",
+                    "name": "image_map",
                     "prefix": "",
-                    "type": "file",
-                    "instructions": "",
+                    "type": "textarea",
+                    "instructions": "Include map code only (no img tag). Name \/ ID of map should be constructed: <strong>map-ProcessTitle<\/strong>. Note initial caps and no spaces in Process Title within the Name\/ID. ",
                     "required": 1,
                     "conditional_logic": 0,
                     "column_width": "",
-                    "return_format": "url",
-                    "library": "all"
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": "",
+                    "readonly": 0,
+                    "disabled": 0
                 }
             ]
         }

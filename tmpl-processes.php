@@ -45,8 +45,8 @@ get_header(); ?>
 									    while ( have_rows('processes') ) : the_row();
 									    $slug = preg_replace('/\s+/', '', get_sub_field('process_title')); ?>
 			        					<div class="process-info" id="div<?php echo $slug; ?>">
-										   
-										    <a href="<?php the_sub_field('process_pdf'); ?>" target="_blank"><img src="<?php the_sub_field('process_image'); ?>" class="noborder" alt="<?php the_sub_field('process_title'); ?>" /></a>
+										    <img usemap="#map-<?php echo $slug; ?>" src="<?php the_sub_field('process_image'); ?>" class="noborder" alt="<?php the_sub_field('process_title'); ?>" />
+										    <?php the_sub_field('image_map'); ?>
 									    </div>
 									    <?php 
 									    endwhile;
